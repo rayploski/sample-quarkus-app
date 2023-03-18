@@ -11,15 +11,6 @@ on:
       - 'src/main/java/*'
       - 'src/main/resources/*'
       - 'src/test/java/*'
-    paths-ignore:
-      - '.gitignore'
-      - 'CODEOWNERS'
-      - 'LICENSE'
-      - '*.md'
-      - '*.adoc'
-      - '*.txt'
-      - '.all-contributorsrc'
-
 jobs:
   build:
     name: Quarkus Native Build
