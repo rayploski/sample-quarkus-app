@@ -4,19 +4,6 @@
 name: Java CI with Maven
 
 on:
-  push:
-    paths:
-      - 'src/main/java/*'
-      - 'src/main/resources/*'
-      - 'src/test/java/*'
-    paths-ignore:
-      - '.gitignore'
-      - 'CODEOWNERS'
-      - 'LICENSE'
-      - '*.md'
-      - '*.adoc'
-      - '*.txt'
-      - '.all-contributorsrc'
   pull_request:
     paths:
       - 'src/main/java/*'
