@@ -13,4 +13,5 @@ public class GreetingResource2 {
     public String hello() {
         return "Hello from RESTEasy Reactive 2";
     }
+    // trivial add to test GH Workflow
 }
