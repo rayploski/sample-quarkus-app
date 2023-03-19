@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   build:
-    name: Quarkus Native Build
+    name: Quarkus JVM Build
     runs-on: ubuntu-latest
 
     steps:
