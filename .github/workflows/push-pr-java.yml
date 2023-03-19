@@ -5,15 +5,7 @@ name: Java CI with Maven
 
 on:
   pull_request:
-    paths:
-      - 'src/main/java/*'
-      - 'src/main/resources/*'
-      - 'src/test/java/*'
   push:
-    paths:
-      - 'src/main/java/*'
-      - 'src/main/resources/*'
-      - 'src/test/java/*'
 jobs:
   build:
     name: Quarkus Native Build
