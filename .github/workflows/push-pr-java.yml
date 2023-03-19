@@ -28,7 +28,7 @@ jobs:
         shell: bash
 
       - name: Build with Java Artifact with Maven
-        run: sudo ./mvnw -B install
+        run: sudo mvn -B install
 
       # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
       - name: Update dependency graph
